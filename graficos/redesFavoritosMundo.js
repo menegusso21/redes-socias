@@ -1,4 +1,4 @@
-import { getCSS } from "./common.js"
+import { getCSS, criarGrafico } from "./common.js"
 
 async function redesFavoritasMundo() {
     const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/redes-favoritas.json'
